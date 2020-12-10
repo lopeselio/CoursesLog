@@ -114,7 +114,7 @@ export default class AddTutorial extends Component {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="duration">Course Duration</label>
+              <label htmlFor="duration">Course Duration(days):</label>
               <input
                 type="text"
                 className="form-control"

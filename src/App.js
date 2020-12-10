@@ -15,10 +15,10 @@ class App extends Component {
           <Link to={"/tutorials"} className="navbar-brand">
             CourseLog
           </Link>
-          <div className="navbar-nav mr-auto">
+          <div className="navbar-nav mr-auto r">
             <li className="nav-item">
               <Link to={"/tutorials"} className="nav-link">
-                Courses
+                See Courses
               </Link>
             </li>
             <li className="nav-item">

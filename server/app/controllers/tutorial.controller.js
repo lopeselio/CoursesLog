@@ -13,6 +13,7 @@ exports.create = (req, res) => {
   const tutorial = new Tutorial({
     title: req.body.title,
     description: req.body.description,
+    description: req.body.duration,
     published: req.body.published ? req.body.published : false
   });
 
